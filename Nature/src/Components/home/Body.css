@@ -1,0 +1,312 @@
+.BodyContainer {
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.BodyContainer h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #9E99BF;
+}
+
+.BodyContainer h2 {
+    margin-top: 150px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #3C3D59;
+} 
+
+.BodyContainer form {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.BodyContainer form #Email {
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding-left: 20px;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.BodyContainer form #Submit {
+    width: 100px;
+    height: 52px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    background-color: #F2BDC1;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+} 
+
+/* Responsividade */
+
+@media(max-width: 321px) {
+
+    .BodyContainer {
+        width: 90%;
+        height: 500px;
+        
+    }
+
+    .BodyContainer h1 {
+        text-align: center;
+        font-size: 40px;
+        
+        
+    }
+
+    .BodyContainer h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #F2BDC1;
+        
+        margin-top: 50px;
+    } 
+
+    .BodyContainer form {
+        width: 90%;
+    }
+
+    .BodyContainer form #Email {
+        width: 100%;
+        height: 50px;
+        border: none;
+        padding-left: 10px;
+        color: black;
+        font-weight: bold;
+        border-radius: 10px 0px 0px 10px;
+    }
+}
+
+@media(min-width: 321px) {
+    .BodyContainer {
+        width: 90%;
+        height: 500px;
+        
+    }
+
+    .BodyContainer h1 {
+        text-align: center;
+        font-size: 50px;
+        
+        
+    }
+
+    .BodyContainer h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #F2BDC1;
+        
+        margin-top: 50px;
+    } 
+
+    .BodyContainer form {
+        width: 90%;
+    }
+
+    .BodyContainer form #Email {
+        width: 100%;
+        height: 50px;
+        border: none;
+        padding-left: 10px;
+        color: black;
+        font-weight: bold;
+        border-radius: 10px 0px 0px 10px;
+    }
+}
+
+@media(min-width: 376px) {
+    .BodyContainer {
+        width: 90%;
+        height: 500px;
+        
+    }
+
+    .BodyContainer h1 {
+        text-align: center;
+        font-size: 60px;
+        
+        
+    }
+
+    .BodyContainer h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #F2BDC1;
+        
+        margin-top: 50px;
+    } 
+
+    .BodyContainer form {
+        width: 90%;
+    }
+
+    .BodyContainer form #Email {
+        width: 100%;
+        height: 50px;
+        border: none;
+        padding-left: 10px;
+        color: black;
+        font-weight: bold;
+        border-radius: 10px 0px 0px 10px;
+    }
+}
+
+@media(min-width: 425px) {
+    .BodyContainer {
+        width: 90%;
+        height: 500px;
+        
+    }
+
+    .BodyContainer h1 {
+        text-align: center;
+        font-size: 60px;
+        
+        
+    }
+
+    .BodyContainer h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #F2BDC1;
+        
+        margin-top: 50px;
+    } 
+
+    .BodyContainer form {
+        width: 90%;
+    }
+
+    .BodyContainer form #Email {
+        width: 100%;
+        height: 50px;
+        border: none;
+        padding-left: 20px;
+        color: black;
+        font-weight: bold;
+        border-radius: 10px 0px 0px 10px;
+    }
+}
+
+@media(min-width: 768px) {
+    .BodyContainer {
+        width: 90%;
+        height: 500px;
+        
+    }
+
+    .BodyContainer h1 {
+        text-align: center;
+        font-size: 60px;
+        
+        
+    }
+
+    .BodyContainer h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #3C3D59;
+        
+        margin-top: 50px;
+    } 
+
+    .BodyContainer form {
+        width: 70%;
+    }
+
+    .BodyContainer form #Email {
+        width: 100%;
+        height: 50px;
+        border: none;
+        padding-left: 20px;
+        color: black;
+        font-weight: bold;
+        border-radius: 10px 0px 0px 10px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .BodyContainer {
+        width: 90%;
+        height: 500px;
+        
+    }
+
+    .BodyContainer h1 {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .BodyContainer h2 {
+        font-size: 30px;
+        font-weight: bold;
+        color: #3C3D59;
+        
+        margin-top: 50px;
+    } 
+
+    .BodyContainer form {
+        width: 70%;
+    }
+
+    .BodyContainer form #Email {
+        width: 100%;
+        height: 60px;
+        padding-left: 20px;
+    }
+
+    .BodyContainer form #Submit {
+        height: 62px;  
+    }
+}
+
+@media(min-width: 1440px) {
+    .BodyContainer {
+        width: 90%;
+        height: 500px;
+        
+    }
+
+    .BodyContainer h1 {
+        margin-top: 200px;
+        text-align: center;
+        font-size: 70px;
+    }
+
+    .BodyContainer h2 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #3C3D59;
+        
+        margin-top: 100px;
+    } 
+
+    .BodyContainer form {
+        width: 70%;
+    }
+
+    .BodyContainer form #Email {
+        width: 100%;
+        height: 60px;
+        padding-left: 20px;
+    }
+
+    .BodyContainer form #Submit {
+        height: 62px;  
+    }
+}
+

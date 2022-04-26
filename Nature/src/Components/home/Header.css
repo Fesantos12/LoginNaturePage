@@ -1,0 +1,54 @@
+.HeaderContainer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: white;
+    transition: .2s;
+}
+
+.Logo:hover {
+    color: #9E99BF;
+}
+
+.Login {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+    text-transform: uppercase;
+    color: white;
+    transition: .2s;
+}
+
+.Login:hover {
+    color: #9E99BF;
+}
+
+/* Responsividade */
+
+@media(min-width: 2560px) {
+    .HeaderContainer {
+        width: 100%;
+        height: 100px;
+    }
+    
+    .Logo {
+        font-size: 50px;
+        margin-left: 50px;
+    }
+
+    .Login {
+        font-size: 50px;
+        margin-right: 50px;
+    }
+}
