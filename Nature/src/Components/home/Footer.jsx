@@ -6,10 +6,10 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className="FooterContainer">
-            <a href="#" target="E_blank" className='Copy'>&copy;Unker</a>
+            <a href="https://github.com/Fesantos12" target="E_blank" className='Copy'>&copy;Unker</a>
             <div className="Insta">
                 <img src={Insta} alt="logo do Instagram" id='logoinsta'/>
-                <a href="#" target="_blank">Fe_santos95</a>
+                <a href="https://www.instagram.com/fe_santos95/" target="_blank">Fe_santos95</a>
             </div>
             
         </div>
