@@ -97,3 +97,122 @@
     background-color: #9E99BF;
 }
 
+@media(max-width: 1024px) {
+    .LoginBodyContainer {
+        width: 30%;
+        height: 350px;
+    }
+
+    .LoginBodyContainer h1 {
+        margin-top: 60px;
+        font-size: 40px;
+    }
+
+    .LoginBodyContainer form {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .Remember span {
+        color: aliceblue;
+        font-size: 10px;
+    }
+    
+
+    .EsqueciLembrar a {
+        font-size: 10px;
+        color: aliceblue;
+    }
+
+    .Remember #Check {
+        color: aliceblue;
+        border: none;
+        margin-top: 0px;
+    }
+
+    .LoginBodyContainer form button {
+        margin-top: 30px;
+        
+    }
+    
+    
+}
+
+@media(max-width: 769px) {
+    .LoginBodyContainer {
+        width: 40%;
+        height: 350px;
+    }
+}
+
+@media(max-width: 426px) {
+    .LoginBodyContainer {
+        width: 60%;
+        height: 350px;
+    }
+
+    .Remember span {
+        color: aliceblue;
+        font-size: 9px;
+    }
+    
+
+    .EsqueciLembrar a {
+        font-size: 8px;
+        color: aliceblue;
+    }
+
+    .Remember #Check {
+        color: aliceblue;
+        border: none;
+        margin-top: 0px;
+    }
+}
+
+@media(max-width: 376px) {
+    .LoginBodyContainer {
+        width: 70%;
+        height: 350px;
+    }
+
+    .Remember span {
+        color: aliceblue;
+        font-size: 9px;
+    }
+    
+
+    .EsqueciLembrar a {
+        font-size: 8px;
+        color: aliceblue;
+    }
+
+    .Remember #Check {
+        color: aliceblue;
+        border: none;
+        margin-top: 0px;
+    }
+}
+
+@media(max-width: 321px) {
+    .LoginBodyContainer {
+        width: 80%;
+        height: 350px;
+    }
+
+    .Remember span {
+        color: aliceblue;
+        font-size: 9px;
+    }
+    
+
+    .EsqueciLembrar a {
+        font-size: 8px;
+        color: aliceblue;
+    }
+
+    .Remember #Check {
+        color: aliceblue;
+        border: none;
+        margin-top: 0px;
+    }
+}
